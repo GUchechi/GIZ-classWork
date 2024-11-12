@@ -111,12 +111,12 @@ body {
 
 .footer-bottom {
   margin: 0;
-  color: #aaa;
+  color: #565353;
   font-weight: bold;
 }
 
 .footer-bottom:hover {
-  color: rgba(0, 123, 255, 0.4);
+  color: rgba(0, 123, 255, 0.9);
   transition: color 0.3s ease;
 }
 
