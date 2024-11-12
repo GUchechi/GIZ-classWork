@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Product filter & Search</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Search Input -->
+      <div class="search-bar">
+        <input
+          type="text"
+          id="searchInput"
+          name="searchbar"
+          placeholder="Search for products..."
+        />
+      </div>
+
+      <!-- filter options -->
+      <div class="filter">
+        <h3>Filter by Category</h3>
+        <select name="" id="categoryFilter">
+          <option value="all">All</option>
+          <option value="electronics">Electronics</option>
+          <option value="fashion">Fashion</option>
+          <option value="books">Books</option>
+        </select>
+      </div>
+
+      <!-- Product List -->
+      <div class="product-list">
+        <div class="product" data-category="electronics">
+          <h3>Laptop</h3>
+          <p>Category: Electronics</p>
+        </div>
+
+        <div class="product" data-category="fashion">
+          <h3>T-Shirts</h3>
+          <p>Category: Fashion</p>
+        </div>
+
+        <div class="product" data-category="books">
+          <h3>Javascript Book</h3>
+          <p>Category: Books</p>
+        </div>
+
+        <div class="product" data-category="electronics">
+          <h3>Smart Phone</h3>
+          <p>Category: Electronics</p>
+        </div>
+
+        <div class="product" data-category="fashion">
+          <h3>Jacket</h3>
+          <p>Category: Fashion</p>
+        </div>
+
+        <div class="product" data-category="books">
+          <h3>PHP Book</h3>
+          <p>Category: Books</p>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p class="footer-bottom">
+          &copy; 2024 GIZ. All rights reserved.
+        </p>
+      </footer>
+    </div>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
